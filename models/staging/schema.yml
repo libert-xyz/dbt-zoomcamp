@@ -4,13 +4,8 @@ sources:
     - name: staging
       #For bigquery:
       database: tully-test
-
-      # For postgres:
-      #database: production
-
       schema: trips_data_all
 
-      # loaded_at_field: record_loaded_at
       tables:
         - name: nytaxi
          # freshness:
